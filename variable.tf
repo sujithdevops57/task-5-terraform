@@ -7,12 +7,12 @@ variable "vm_config" {
     }))
     default = [ {
       name = "vm-1"
-      zone = "us-east1-b"
+      zone = "us-east4-a"
       machine_type = "e2-medium"
       image = "centos-cloud/centos-stream-9"
     } ,{
       name = "vm-2"
-      zone = "us-east1-c"
+      zone = "us-east4-b"
       machine_type = "e2-medium"
       image = "debian-cloud/debian-11" 
     },
