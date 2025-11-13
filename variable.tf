@@ -12,7 +12,7 @@ variable "vm_config" {
       image = "centos-cloud/centos-stream-9"
     } ,{
       name = "vm-2"
-      zone = "us-east1-a"
+      zone = "us-east1-c"
       machine_type = "e2-medium"
       image = "debian-cloud/debian-11" 
     },
