@@ -44,6 +44,7 @@ pipeline {
             steps{
                 echo ""
                 dir ('/home/sujithmanelli4321/task-5-terraform'){
+                    sh 'terraform init'
                     sh 'terraform destroy --auto-approve'
                 }
                 
