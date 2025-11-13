@@ -2,7 +2,7 @@ pipeline {
     agent {
       label "label-1-node-1"
     }
-    Environment {
+    environment {
         Google_Application_Credentials = credentials('gcp-credentials')
     }
    
