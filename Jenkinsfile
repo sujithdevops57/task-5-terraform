@@ -4,7 +4,6 @@ pipeline {
     }
     Environment {
         Google_Application_Credentials = credentials('gcp-credentials')
-
     }
    
       parameters {
