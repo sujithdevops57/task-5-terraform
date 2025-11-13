@@ -1,7 +1,7 @@
 
 provider "google" {
     project = "leafy-rope-472907-e3"
-    region = "us-east1"
+    region = "us-east4"
    
 }
 resource "google_compute_instance" "target_vms" {
